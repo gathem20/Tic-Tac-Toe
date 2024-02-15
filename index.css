@@ -1,0 +1,32 @@
+
+body{
+  background-color: #18568dd4;
+}
+
+#reset{
+  color: #15d6c6c7;
+  font-size: 25px;
+  border: none 23px;
+  border-radius: 8px;
+  background-color: #191717;
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+}
+#game-cont {
+  text-align: center;
+
+}
+#cell-cont {
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
